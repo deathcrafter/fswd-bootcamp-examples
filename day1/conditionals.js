@@ -1,3 +1,5 @@
+console.group("conditionals");
+
 function exampleIfElse() {
   let i = 10;
 
@@ -7,6 +9,8 @@ function exampleIfElse() {
     console.log("i != 10");
   }
 }
+
+exampleIfElse();
 
 function exampleIfElseIf() {
   let i = 10;
@@ -20,9 +24,9 @@ function exampleIfElseIf() {
   }
 }
 
-function exampleSwitch() {
-  let val = 5;
+exampleIfElseIf();
 
+function exampleSwitch(val) {
   switch (val) {
     case 5: // checks if val == 5
       console.log("five"); // this block is executed if val == 5
@@ -46,3 +50,8 @@ function exampleSwitch() {
       break;
   }
 }
+
+exampleSwitch(7);
+exampleSwitch(5);
+
+console.groupEnd();

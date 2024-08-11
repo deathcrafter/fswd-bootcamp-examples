@@ -1,3 +1,5 @@
+console.group("types");
+
 console.log(
   typeof "hello", // string
   typeof 42, // number
@@ -6,3 +8,5 @@ console.log(
   typeof undefined, // undefined
   typeof [] // object
 );
+
+console.groupEnd();

@@ -1,3 +1,5 @@
+console.group("var-let");
+
 function diffVarLet() {
   var a = 1; // function scoped
   let b = 2; // block scoped
@@ -22,3 +24,5 @@ function diffVarLet() {
 }
 
 diffVarLet();
+
+console.groupEnd();

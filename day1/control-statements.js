@@ -1,3 +1,5 @@
+console.group("control-statements");
+
 function exampleWhile() {
   let i = 0;
 
@@ -62,3 +64,5 @@ function usecaseFor() {
 }
 
 usecaseFor();
+
+console.groupEnd();
